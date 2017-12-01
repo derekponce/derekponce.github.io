@@ -4,6 +4,7 @@ You can use the [editor on GitHub](https://github.com/derekponce/derekponce.gith
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 ### Editing Header
+![Family + Fragrances](/FamilyxFragrances.JPG)
 ![FamilyxFragrances.JPG](src)
 
 ### Markdown
