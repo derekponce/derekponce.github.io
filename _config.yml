@@ -2,7 +2,7 @@ remote_theme: mmistakes/skinny-bones-jekyll
 
 # Site wide configuration
 
-title: "My Site"
+title: "Derek Ponce"
 description: "This is a description of my awesome site."
 logo: Headshot_Beach.JPG
 teaser: # 400x250 px default teaser image used in image archive grid
