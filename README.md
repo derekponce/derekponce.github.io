@@ -2,7 +2,7 @@ Read Me
 
 ## Welcome to GitHub Pages
 
-logo: ![Headshot_Beach.JPG](/Headshot_Beach.JPG)
+logo: ![Shrunk_120.JPG](/Shrunk_120.JPG)
 
 You can use the [editor on GitHub](https://github.com/derekponce/derekponce.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
