@@ -1,1 +1,7 @@
 remote_theme: mmistakes/skinny-bones-jekyll
+
+# Site wide configuration
+
+title: "My Site"
+description: "This is a description of my awesome site."
+logo: Headshot_Beach.JPG
