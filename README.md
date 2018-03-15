@@ -1,40 +1,93 @@
-## Welcome to GitHub Pages
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Marketplace
+Explore
+ @derekponce
+Sign out
+35
+643 741 mmistakes/skinny-bones-jekyll
+ Code  Issues 11  Pull requests 5  Projects 0  Insights
+skinny-bones-jekyll/_config.yml
+07f637c  on Jun 1, 2016
+@mmistakes mmistakes Update gems and remove dependencies
+     
+65 lines (57 sloc)  1006 Bytes
+# Site wide configuration
 
-You can use the [editor on GitHub](https://github.com/derekponce/derekponce.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+title: "My Site"
+description: "This is a description of my awesome site."
+logo: # 120x120 px default image used for Twitter summary card
+teaser: # 400x250 px default teaser image used in image archive grid
+locale: en
+url:
+feed:
+  path: atom.xml
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-### Editing Header
-![Family + Fragrances](/FamilyxFragrances.JPG)
-![FamilyxFragrances.JPG](src)
+# Jekyll configuration
 
-### Markdown
+sass:
+  sass_dir: _sass
+  style: compressed
+permalink: /:categories/:title/
+kramdown:
+  toc_levels: 1..2
+highlighter: rouge
+gems:
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+# Site owner
+owner:
+  name:
+  email:
+  twitter:
+  google:
+    ad-client:
+    ad-slot:
+  bio:
+  avatar: bio-photo.jpg # 160x160 px image for author byline
+  disqus-shortname:
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/derekponce/derekponce.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+include:
+  - .htaccess
+exclude:
+  - "*.less"
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - config
+  - gulpfile.js
+  - lib
+  - log
+  - node_modules
+  - package.json
+  - spec
+  - tmp
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
+About
